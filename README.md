@@ -19,7 +19,7 @@ yarn install
 yarn add webpack@2.6.1 webpack-dev-server@2.6.1 // version 3 has some issues for now
 ```
 
-## get your nodejs .bin location (usually node_modules\.bin)
+## get your nodejs .bin location (usually node_modules\\.bin)
 ```
 npm bin 
 ```
