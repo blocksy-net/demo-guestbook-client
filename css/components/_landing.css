@@ -1,0 +1,258 @@
+.overlay {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.overlay div {
+  padding-top:45%;
+  background: rgba(27, 25, 25, 0.12);
+}
+
+.overlay .fa {
+  font-size: 1em;
+  color: $brand-color;
+}
+
+.section-header { margin-bottom: 3em; }
+
+/*  other sections */
+
+.content-section {
+  font-size: 1.1em;
+  padding-bottom: 75px;
+
+}
+.content-section * {
+  font-family: Whitney SSm A,Whitney SSm B,Whitney,Helvetica Neue,sans-serif;
+}
+
+.content-section h1 {
+  font-size: 3em;
+  font-weight: 600;
+  margin-top: 0;
+  color: $dark-brand-color;
+  text-align: center;
+}
+
+.content-section h2 {
+  font-size: 1.6em;
+  font-weight: 400;
+  margin-top: 0;
+  color: #776094; /* light grey: #797979 */
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.content-section h3 {
+  font-size: 24px;
+  font-weight: 1.35em;
+  font-weight: 400;
+  margin: 0;
+  color: $dark-brand-color;
+}
+
+.content-section p {
+  color: #726c79;
+  font-weight: 300;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.content-section i.fa{
+  font-family: 'FontAwesome','Source Sans Pro', sans-serif;
+  font-size: 1.9em;
+  margin-top: -5px;
+}
+
+.highlights{
+  width: 100%;
+}
+
+.highlights .icon {
+  width: 12%;
+  text-align: center;
+}
+
+.highlights .desc {
+  padding-top: 10px;
+}
+
+/* action button */
+
+.content-section .btn {
+  color: $brand-color;
+  font-size: 1.25em;
+  border: 1.5px solid $brand-color;
+  text-decoration: none;
+  line-height: 1;
+  padding: 12px 0 12px;
+  width: 200px
+}
+
+.tos .btn {
+    width: 150px;
+    font-size: 1em;
+    margin: 20px 5px;
+}
+
+.content-section .btn:hover {
+  color: white;
+  background-color: $brand-color;
+}
+
+.content-section .main-action a {
+  margin-top: 30px;
+  display: block;
+  margin: auto;
+}
+
+.main-action {
+  margin-top: 50px;
+}
+
+
+/* utils */
+
+.brand-color {
+  color: $brand-color;
+}
+
+.dark-brand-color {
+  color: $dark-brand-color;
+}
+
+.content-section strong {
+  color: $brand-color;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+
+@media screen and (max-width: 800px) {
+  .overlay h1  {
+    font-size: 2em;
+  }
+
+  .overlay .hero  {
+    font-size: 2em;
+  }
+
+  .content-section {
+    padding-bottom: 55px;
+  }
+
+  .content-section h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+
+  .content-section h2 {
+    font-size: 1.25em;
+  }
+
+  .content-section h3 {
+    font-size: 1.15em;
+    font-weight: 300;
+  }
+
+  .content-section p {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+
+  .content-section .btn {
+    font-size: 1.1em;
+    border: 1.5px solid $brand-color;
+    padding: 12px 0 12px;
+    width: 175px;
+  }
+
+  .tos .btn {
+    width: 150px;
+    font-size: 1em;
+    margin: 20px 5px;
+  }
+
+
+  .highlights .icon {
+      width: 20%;
+      padding-top: 18px;
+      text-align: center;
+      vertical-align: initial;
+      margin-left: -10px;
+  }
+
+  .content-section  i.fa{
+      font-size: 2.1em;
+      margin-top: -5px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .overlay h1  {
+    font-size: 1.5em;
+  }
+
+  .overlay .hero  {
+    font-size: 1.55em;
+  }
+
+  .overlay div {
+    padding-top: 50%;
+  }
+
+  .content-section {
+    padding-bottom: 35px;
+    font-size: 1em;
+  }
+
+  .content-section h1 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+
+  .content-section h2 {
+    font-size: 1.5em;
+  }
+
+  .content-section h3 {
+    font-weight: 300;
+    font-size: 1.1em;
+  }
+
+  .content-section p {
+    font-size: 1em;
+  }
+
+  .content-section .btn {
+    font-size: 1.1em;
+    border: 1.5px solid $brand-color;
+    padding: 12px 0 12px;
+    width: 150px;
+  }
+
+  .tos .btn {
+    width: 125px;
+    font-size: 1em;
+    margin: 20px 5px;
+  }
+
+  .highlights .icon {
+    width: 20%;
+    padding-top: 18px;
+    text-align: center;
+    vertical-align: initial;
+    margin-left: -10px;
+  }
+
+  .content-section i.fa{
+    font-size: 2.1em;
+    margin-top: -5px;
+  }
+
+}

@@ -1,0 +1,92 @@
+.form-page__wrapper {
+	margin-top: 3.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+  width: 100%;
+}
+
+.modal{
+	background-color:rgba(0, 0, 0, 0.1);
+}
+
+.modal-dialog{
+	margin: 150px auto;
+}
+
+.modal-title {
+	color: $dark-brand-color;
+}
+
+.modal-body, .modal-body *{
+	font-family: $text-font-stack;
+}
+
+.form__field-label span, .modal-body span {
+	color: $brand-color;
+	font-weight: 450;
+}
+
+.form-page__form-wrapper {
+  max-width: 325px;
+  width: 100%;
+  border: 1px solid $very-light-grey;
+  border-radius: 3px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.form-page__form-heading {
+  text-align: center;
+  font-size: 1em;
+  user-select: none;
+}
+
+.form-page__form-header {
+  padding: 1em;
+}
+
+.nav-tabs {
+	border-bottom: 1px solid $brand-color;
+}
+
+.nav-tabs  a {
+	font-family: $text-font-stack !important;
+}
+
+.nav-tabs>li>a{
+	color: $brand-color;
+	margin-right: 2px;
+  line-height: 1.42857143;
+  background: rgba(221, 221, 221, 0);
+  border: 1px solid rgba(90, 17, 152, 0.21);
+  border-radius: 4px 4px 0 0;
+  border-bottom-color: $brand-color;
+}
+
+.nav-tabs>li.active>a{
+	color: rgb(255, 255, 255) !important;
+	cursor: default !important;
+	background-color: $brand-color !important;
+	border: 1px solid $brand-color !important;
+	border-bottom-color: transparent !important;
+}
+
+.gdpr {
+	padding-right: 40px;
+	height: 50px;
+	display: block;
+	width: 70%;
+	font-size: 12px;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+
+  .modal .model-content {
+    margin-top: -70px !important;
+  }
+
+}

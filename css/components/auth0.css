@@ -1,0 +1,17 @@
+.auth0-lock-alternative>a,
+.auth0-lock-input-wrap>input,
+.auth0-lock-error-msg>span,
+.auth0-lock-tabs>li>a,
+.auth0-label-submit,
+.auth0-lock-form span input {
+  font-family: $text-font-stack !important;
+}
+
+.auth0-lock-header-bg {
+  background: white !important;
+  background-color: white !important;
+}
+.auth0-lock-name {
+  /*display: none !important;*/
+  font-style: italic;
+}

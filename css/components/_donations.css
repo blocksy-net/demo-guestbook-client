@@ -1,0 +1,108 @@
+.donations {
+}
+
+.donations tr {
+	height: 150px;
+}
+
+.donations th, .donations td {
+	width: 30% !important;
+}
+
+.donations img {
+	max-width: 150px;
+	height: auto;
+}
+
+.donations .logo {
+  padding-top: 20px;
+	text-align: center;
+}
+
+.donations .balance {
+	font-size: 22px;
+	font-weight: 600;
+	color: #3b9145;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.donations .balance > .dark{
+	color: #222222d9;
+}
+
+.donations .subtitle {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.donations .organization {
+	font-weight: 600;
+	color: #3b9145;
+}
+
+.sort-column {
+	text-align: center !important;
+}
+
+.objective {
+	width: 80%;
+	margin: 0 auto;
+	/*height: 100px;*/
+	background: rgba(255, 255, 255, 0);
+}
+
+.objective .progressbar {
+	padding-top: 25px;
+}
+
+.objective .title {
+	padding-top: 10px;
+  text-align: center;
+	font-size: 22px;
+	font-weight: 600;
+	color: #222222d9;
+}
+
+.objective .title > .green{
+	color: #3b9145;
+}
+
+.objective .subtitle {
+	font-size: 0.85em;
+	padding: 10px;
+	margin-top: 3%;
+	text-align: center;
+
+}
+
+.objective .footer {
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+	.donations img {
+		max-width: 125px;
+		height: auto;
+	}
+
+	.objective {
+		/*height: 75px;*/
+	}
+
+	.objective .subtitle {
+		margin: 0;
+	}
+
+	.objective .title, .donations .balance {
+		font-size: 16px;
+	}
+
+	.objective .progressbar {
+    padding-top: 10px;
+	}
+
+}

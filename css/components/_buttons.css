@@ -1,0 +1,49 @@
+/*This file contains all styles related to the button component.*/
+
+.btn {
+  /*padding: 0.5em 1.5em;*/
+  border: 1px solid $brand-color;
+  border-radius: 3px;
+  text-decoration: none;
+  user-select: none;
+  display: inline-block;
+  height: auto;
+  font-size: text-font-stack;
+  width: 95px;
+  margin-top: 0.5em;
+}
+
+.btn:hover, .btn--nav:hover>a {
+  color: white;
+  background-color: $brand-color;
+}
+
+.btn--loading {
+  color: white;
+  background-color: $brand-color;
+}
+
+.btn--login {
+  width: 40px;
+  margin-left: 40%;
+  margin-top: -50px;
+  position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+  .btn--login {
+    margin-left: 50%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .btn--login {
+    margin-left: 65%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .btn--login {
+    margin-left: 70%;
+  }
+}

@@ -1,0 +1,7 @@
+.gradle
+.settings
+yarn.lock
+node_modules
+# production
+build
+dist

@@ -1,0 +1,20 @@
+/*This file contains all application-wide CSS variables.*/
+
+$text-font-stack: 'FontAwesome','Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace;
+$serif-font-stack: 'FontAwesome','Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+$brand-color: #3c9146;
+$dark-brand-color: #666;
+$error-color: rgba(230, 20, 69, 0.93); /*#FB4F4F;*/
+
+$background-color: #FAFAFA;
+$very-light-grey: #EDEDED;
+$light-grey: #CCC;
+$mid-grey: #999;
+$dark-grey: #666;
+$very-dark-grey: #333;
+$text-color: #222;
+
+$max-width: 768px;
+$nav-height: 3.5em;

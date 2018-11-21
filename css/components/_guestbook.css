@@ -1,0 +1,93 @@
+.guestbook {
+	padding: 15px 15px;
+	display: flex;
+}
+
+.guestbook .photo{
+
+}
+
+.guestbook .content{
+	padding: 0px 15px;
+	padding-top: 5px;
+	width: 100%;
+}
+
+.guestbook .header{
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.guestbook .header .twitter{
+	font-weight: 400;
+}
+
+.guestbook .header .dateTime{
+	padding-left: 5px;
+	font-weight: 400;
+	font-size: 10px;
+	color: #9e9e9e;
+}
+
+.guestbook .message{
+	font-size: 16px;
+	padding: 10px 0px;
+	padding-bottom: 20px;
+}
+
+.guestbook .footer{
+	text-align: right;
+	font-size: 8px;
+}
+
+.guestbook a {
+	color: #3c9146;
+}
+
+.messages-loading {
+	margin-top: 35px;
+	text-align: center;
+}
+
+.messages-loading .loading {
+	font-size: 10px;
+}
+
+.messages-loading span {
+	/*margin-left: 35%;
+  font-style: oblique;*/
+}
+
+.messages-loading-icon{
+	color: rgba(59, 145, 69, 0.89);
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+	.guestbook .photo{
+		padding-top: 5px;
+	}
+
+	.guestbook {
+		padding: 5px 5px;
+	}
+
+	.guestbook .content {
+    width: 85%;
+    overflow-wrap: break-word;
+	}
+
+	.guestbook .content > * {
+	  overflow-wrap: break-word;
+	}
+
+	.guestbook .footer{
+		font-size: 6px;
+	}
+
+	.guestbook .message {
+		font-size: 12px;
+	}
+
+}

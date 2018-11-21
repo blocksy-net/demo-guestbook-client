@@ -1,0 +1,78 @@
+/*This file contains all styles related to the footer of the site/application.*/
+.fa-padding {
+  padding-right: 10px;
+  padding-top: -5px !important;
+}
+
+footer {
+  padding-top: 10px;
+  height: $nav-height !important;
+  padding-bottom: 10px;
+  line-height: 1;
+  padding: 7px 8px;
+  height: auto !important;
+  z-index: 998 !important;
+}
+
+footer * {
+  z-index: 998 !important;
+}
+
+footer .row {
+  margin: 0;
+}
+
+footer::before {
+  margin-top: 75px;
+}
+
+.footer-links, .footer-copyright{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer-icons {
+  margin-top: 5px;
+  padding-left: 10%;
+}
+
+.footer-links a{
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col>small, .col>p {
+  font-family: $text-font-stack;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  .crisp-client a {
+      margin-bottom: 55px !important;
+      margin-left: 5px !important;
+  }
+
+  .footer-links, .footer-copyright{
+    font-size: 10px;
+    width: 30%;
+    margin-left: 5%;
+    line-height: 1;
+    width: 25%;
+    padding: 0 3px;
+  }
+}

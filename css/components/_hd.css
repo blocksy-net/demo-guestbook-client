@@ -1,0 +1,55 @@
+.rootHD {
+  width: 100%;
+  padding-left: 5%;
+}
+
+.containerHD {
+  width: 90%;
+  margin-left: 4%;
+}
+
+.fullscreen-mode {
+  margin-top: 90px !important;
+}
+
+.guestbookHD {
+  padding: 0 50px;
+}
+
+.hd-one-column td {
+  width: 100% !important;
+}
+
+.donationsHD {
+  top: 0;
+  padding: 0 25px;
+  margin-top: 130px;
+  margin-left: 25px;
+  width: 35%;
+  position: fixed;
+}
+
+.donationsHD-fullscreen{
+  margin-top: 90px !important;
+}
+
+.eventTitleHD{
+  position: absolute;
+  right: 150px;
+  top: 20px;
+  z-index: 10000;
+  color: #3c9146;
+}
+
+
+*:fullscreen, *:-webkit-full-screen, *:-moz-full-screen {
+    background-color: $background-color !important;
+}
+
+html:-webkit-full-screen-ancestor {
+    background-color: $background-color !important;
+}
+
+html:-moz-full-screen-ancestor {
+    background-color: $background-color !important;
+}
